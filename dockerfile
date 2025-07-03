@@ -22,7 +22,7 @@ ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=5678
 ENV N8N_PROTOCOL=http
 ENV N8N_DIAGNOSTICS_ENABLED=false
-N8N_SECURE_COOKIE=false
+ENV N8N_SECURE_COOKIE=false
 ENV N8N_EDITOR_BASE_URL=https://n8n.bspcloud.com  # Update with your domain
 
 # Webhook configuration for ECS
